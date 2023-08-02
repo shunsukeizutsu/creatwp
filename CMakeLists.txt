@@ -19,7 +19,7 @@ endif()
 
 
 
-include_directories( ~/TC2023/localizer/src  )
+include_directories( ~/TC2023/localizer/src ~/creatFig/src )
 
 # set the build type
 set(CMAKE_BUILD_TYPE Release)
@@ -30,7 +30,7 @@ message(STATUS "CMAKE_C_FLAGS_RELEASE: ${CMAKE_C_FLAGS_RELEASE}")
 message(STATUS "CMAKE_CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
 message(STATUS "CMAKE_CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}")
 
-add_executable(cwp ./src/creatwp.cpp)
+add_executable(cwp ./src/creatwp.cpp ~/creatFig/src/creatfig.cpp)
 target_link_libraries(cwp m ssm)
 
 

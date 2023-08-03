@@ -33,6 +33,8 @@ message(STATUS "CMAKE_CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}")
 add_executable(cwp ./src/creatwp.cpp ~/creatFig/src/creatfig.cpp)
 target_link_libraries(cwp m ssm)
 
+add_executable(log2wp ./src/log2wp.cpp ~/creatFig/src/creatfig.cpp)
+target_link_libraries(log2wp m ssm)
 
 
 

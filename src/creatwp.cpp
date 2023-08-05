@@ -27,7 +27,7 @@ char filename[265] = "../data/test1";
 
 int main(int aArgc, char *aArgv[])
 {
-    PlotData PD(1);
+
     FILE *fp;
     fp = fopen("../data/test.dat", "w");
 
@@ -71,7 +71,6 @@ int main(int aArgc, char *aArgv[])
                     pre_x = localizer_fs.data.estPos[0];
                     pre_y = localizer_fs.data.estPos[1];
                     fprintf(fp, "1    %f    %f    0    N    0    0    0.7    0    1\n", localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
-                    PD.SaveData2D(localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
                 }
                 else
                 {
@@ -82,22 +81,20 @@ int main(int aArgc, char *aArgv[])
                     {
                         if (localizer_fs.data.estAngvel[2] > 0.35 || localizer_fs.data.estAngvel[2] < -0.35)
                         {
-                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 1.0)
+                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 0.5)
                             {
                                 int i = countID();
                                 fprintf(fp, "%d    %f    %f    0    N    0    0    0.7    0    1\n", i, localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
-                                PD.SaveData2D(localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
                                 pre_x = localizer_fs.data.estPos[0];
                                 pre_y = localizer_fs.data.estPos[1];
                             }
                         }
                         else
                         {
-                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 2.0)
+                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 0.7)
                             {
                                 int i = countID();
                                 fprintf(fp, "%d    %f    %f    0    N    0    0    0.7    0    1\n", i, localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
-                                PD.SaveData2D(localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
                                 pre_x = localizer_fs.data.estPos[0];
                                 pre_y = localizer_fs.data.estPos[1];
                             }
@@ -110,7 +107,6 @@ int main(int aArgc, char *aArgv[])
                         {
                             int i = countID();
                             fprintf(fp, "%d    %f    %f    0    N    0    0    0.7    0    1\n", i, localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
-                            PD.SaveData2D(localizer_fs.data.estPos[0], localizer_fs.data.estPos[1]);
                             pre_x = localizer_fs.data.estPos[0];
                             pre_y = localizer_fs.data.estPos[1];
                         }
@@ -124,8 +120,6 @@ int main(int aArgc, char *aArgv[])
                 usleepSSM(dT * 1000);
             }
         }
-        PD.PrintFig2D();
-        PD.SaveFigure(filename);
     }
     catch (std::runtime_error const &error)
     {

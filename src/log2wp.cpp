@@ -62,7 +62,7 @@ int main(int aArgc, char **aArgv)
                     flag_first_loop = false;
                     pre_x = localizer.data().estPos[0];
                     pre_y = localizer.data().estPos[1];
-                    fprintf(fp, "1    %f    %f    0    N    0    0    0.7    0    1\n", localizer.data().estPos[0], localizer.data().estPos[1]);
+                    fprintf(fp, "1    %f    %f    0    Toyosumap2022/Toyosu2022_1.pcd    0    0    0.7    0    1\n", localizer.data().estPos[0], localizer.data().estPos[1]);
                     PD.SaveData2D(localizer.data().estPos[0], localizer.data().estPos[1]);
                 }
                 else
@@ -70,14 +70,14 @@ int main(int aArgc, char **aArgv)
                     double delta_x = localizer.data().estPos[0] - pre_x;
                     double delta_y = localizer.data().estPos[1] - pre_y;
 
-                    if (localizer.data().estAngvel[2] > 0.2 || localizer.data().estAngvel[2] < -0.2)
+                    if (localizer.data().estAngvel[2] > 0.1 || localizer.data().estAngvel[2] < -0.1)
                     {
-                        if (localizer.data().estAngvel[2] > 0.35 || localizer.data().estAngvel[2] < -0.35)
+                        if (localizer.data().estAngvel[2] > 0.2 || localizer.data().estAngvel[2] < -0.2)
                         {
-                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 1.0)
+                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 0.3)
                             {
                                 int i = countID();
-                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.7    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
+                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.3    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
                                 PD.SaveData2D(localizer.data().estPos[0], localizer.data().estPos[1]);
                                 pre_x = localizer.data().estPos[0];
                                 pre_y = localizer.data().estPos[1];
@@ -85,10 +85,10 @@ int main(int aArgc, char **aArgv)
                         }
                         else
                         {
-                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 2.0)
+                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 1.5)
                             {
                                 int i = countID();
-                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.7    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
+                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.5    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
                                 PD.SaveData2D(localizer.data().estPos[0], localizer.data().estPos[1]);
                                 pre_x = localizer.data().estPos[0];
                                 pre_y = localizer.data().estPos[1];
@@ -98,7 +98,7 @@ int main(int aArgc, char **aArgv)
 
                     else
                     {
-                        if (sqrt(delta_x * delta_x + delta_y * delta_y) > 5.0)
+                        if (sqrt(delta_x * delta_x + delta_y * delta_y) > 3.0)
                         {
                             int i = countID();
                             fprintf(fp, "%d    %f    %f    0    N    0    0    0.7    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);

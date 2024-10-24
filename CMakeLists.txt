@@ -19,7 +19,7 @@ endif()
 
 
 
-include_directories( ~/TC2023/localizer/src ~/creatFig/src )
+include_directories( ~/TC2024/localizer/src ~/creatFig/src )
 
 # set the build type
 set(CMAKE_BUILD_TYPE Release)

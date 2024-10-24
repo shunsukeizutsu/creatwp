@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: ../data/test1.esp
 %%Creator: gnuplot 5.2 patchlevel 8
-%%CreationDate: Wed Aug  2 18:02:11 2023
+%%CreationDate: Thu Oct 24 11:29:22 2024
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -481,7 +481,7 @@ SDict begin [
   /Creator (gnuplot 5.2 patchlevel 8)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Wed Aug  2 18:02:11 2023)
+  /CreationDate (Thu Oct 24 11:29:22 2024)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -541,7 +541,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1311 280 M
-[ [(Helvetica) 140.0 0.0 true true 0 (-60)]
+[ [(Helvetica) 140.0 0.0 true true 0 (-40)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 /vshift -46 def
@@ -551,19 +551,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 1204 M
+1395 1050 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 1204 M
+1395 1050 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 1204 M
-[ [(Helvetica) 140.0 0.0 true true 0 (-40)]
+1311 1050 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-30)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -572,18 +572,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 2128 M
+1395 1820 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 2128 M
+1395 1820 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 2128 M
+1311 1820 M
 [ [(Helvetica) 140.0 0.0 true true 0 (-20)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
@@ -593,18 +593,39 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 3051 M
+1395 2590 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 3051 M
+1395 2590 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 3051 M
+1311 2590 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1395 3359 M
+4619 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1395 3359 M
+63 0 V
+4556 0 R
+-63 0 V
+stroke
+1311 3359 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
@@ -614,19 +635,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 3975 M
+1395 4129 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 3975 M
+1395 4129 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 3975 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
+1311 4129 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 10)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -647,7 +668,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1311 4899 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 40)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -668,7 +689,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 1395 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+[ [(Helvetica) 140.0 0.0 true true 0 (-10)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -689,7 +710,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 1908 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 10)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -710,7 +731,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 2421 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 10)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -731,7 +752,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 2935 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 30)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -752,7 +773,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 3448 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 40)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 30)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -773,7 +794,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 3961 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 50)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 40)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -794,7 +815,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 4474 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 60)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 50)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -815,7 +836,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 4988 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 70)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 60)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -837,7 +858,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 5501 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 80)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 70)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -858,7 +879,7 @@ LCb setrgbcolor
 0 -63 V
 stroke
 6014 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 90)]
+[ [(Helvetica) 140.0 0.0 true true 0 ( 80)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -881,124 +902,192 @@ LCb setrgbcolor
 0.500 UP
 1.000 UL
 LTb
-1.00 0.00 0.00 C
-1650 2784 CircleF
-1862 2653 CircleF
-2101 2559 CircleF
-2276 2478 CircleF
-2471 2322 CircleF
-2649 2156 CircleF
-2842 1998 CircleF
-3039 1849 CircleF
-3109 1793 CircleF
-3249 1698 CircleF
-3445 1545 CircleF
-3635 1407 CircleF
-3847 1269 CircleF
-4004 1156 CircleF
-4220 1024 CircleF
-4413 889 CircleF
-4623 754 CircleF
-4838 623 CircleF
-4886 597 CircleF
-5012 557 CircleF
-5241 450 CircleF
-5298 423 CircleF
-5375 410 CircleF
-5545 584 CircleF
-5606 691 CircleF
-5642 816 CircleF
-5658 1050 CircleF
-5661 1155 CircleF
-5650 1386 CircleF
-5633 1501 CircleF
-5610 1592 CircleF
-5542 1760 CircleF
-5423 1970 CircleF
-5289 2148 CircleF
-5114 2320 CircleF
-4973 2452 CircleF
-4947 2493 CircleF
-4947 2542 CircleF
-5108 2723 CircleF
-5288 2889 CircleF
-5359 2952 CircleF
-5383 2994 CircleF
-5369 3039 CircleF
-5285 3102 CircleF
-5192 3192 CircleF
-5095 3276 CircleF
-4912 3443 CircleF
-4725 3604 CircleF
-4618 3697 CircleF
-4493 3788 CircleF
-4376 3901 CircleF
-4287 3980 CircleF
-4164 4089 CircleF
-4033 4213 CircleF
-3923 4298 CircleF
-3867 4350 CircleF
-3779 4405 CircleF
-3529 4462 CircleF
-3463 4478 CircleF
-3404 4518 CircleF
-3383 4569 CircleF
-3412 4618 CircleF
-3450 4674 CircleF
-3444 4722 CircleF
-3394 4738 CircleF
-3309 4648 CircleF
-3140 4474 CircleF
-2964 4310 CircleF
-2900 4187 CircleF
-2851 4103 CircleF
-2672 3934 CircleF
-2482 3778 CircleF
-2322 3631 CircleF
-2142 3466 CircleF
-2033 3367 CircleF
-1964 3296 CircleF
-1896 3214 CircleF
-1848 3121 CircleF
-1818 2975 CircleF
-1824 2896 CircleF
-1980 2710 CircleF
-2173 2554 CircleF
-2373 2409 CircleF
-2560 2250 CircleF
-2743 2086 CircleF
-2929 1925 CircleF
-3129 1774 CircleF
-3227 1700 CircleF
-3434 1559 CircleF
-3637 1413 CircleF
-3838 1266 CircleF
-4043 1123 CircleF
-4250 985 CircleF
-4324 934 CircleF
-4417 894 CircleF
-4632 764 CircleF
-4750 686 CircleF
-4840 636 CircleF
-4958 582 CircleF
-5190 483 CircleF
-5347 420 CircleF
-5440 410 CircleF
-5531 475 CircleF
-5604 700 CircleF
-5624 791 CircleF
-5649 990 CircleF
-5658 1091 CircleF
-5649 1313 CircleF
-5636 1373 CircleF
-5608 1467 CircleF
-5602 1569 CircleF
-5583 1667 CircleF
-5539 1782 CircleF
-5495 1866 CircleF
-5412 1999 CircleF
-5353 2084 CircleF
-5179 2254 CircleF
+0.00 0.00 1.00 C
+4701 2595 CircleF
+4678 2484 CircleF
+4658 2255 CircleF
+4650 2023 CircleF
+4646 1791 CircleF
+4642 1579 CircleF
+4617 1446 CircleF
+4567 1356 CircleF
+4521 1325 CircleF
+4444 1334 CircleF
+4290 1352 CircleF
+4136 1357 CircleF
+4051 1364 CircleF
+3896 1362 CircleF
+3742 1370 CircleF
+3587 1366 CircleF
+3505 1366 CircleF
+3350 1362 CircleF
+3195 1367 CircleF
+3041 1372 CircleF
+2925 1376 CircleF
+2781 1363 CircleF
+2627 1365 CircleF
+2546 1365 CircleF
+2415 1367 CircleF
+2322 1358 CircleF
+2168 1369 CircleF
+2014 1368 CircleF
+1892 1373 CircleF
+1816 1351 CircleF
+1794 1331 CircleF
+1782 1315 CircleF
+1756 1161 CircleF
+1746 1038 CircleF
+1744 806 CircleF
+1747 751 CircleF
+1752 723 CircleF
+1786 624 CircleF
+1796 602 CircleF
+1810 582 CircleF
+1823 568 CircleF
+1878 535 CircleF
+2033 525 CircleF
+2188 527 CircleF
+2343 526 CircleF
+2462 530 CircleF
+2585 535 CircleF
+2740 541 CircleF
+2894 536 CircleF
+3001 535 CircleF
+3117 535 CircleF
+3264 532 CircleF
+3419 520 CircleF
+3555 532 CircleF
+3651 533 CircleF
+3806 540 CircleF
+3960 526 CircleF
+4037 520 CircleF
+4157 529 CircleF
+4245 516 CircleF
+4337 514 CircleF
+4470 510 CircleF
+4555 515 CircleF
+4649 513 CircleF
+4803 511 CircleF
+4904 511 CircleF
+5059 503 CircleF
+5214 493 CircleF
+5285 490 CircleF
+5386 498 CircleF
+5541 503 CircleF
+5586 522 CircleF
+5597 539 CircleF
+5624 657 CircleF
+5634 848 CircleF
+5639 1080 CircleF
+5640 1312 CircleF
+5638 1544 CircleF
+5634 1727 CircleF
+5639 1843 CircleF
+5641 1917 CircleF
+5631 2036 CircleF
+5583 2129 CircleF
+5559 2165 CircleF
+5474 2190 CircleF
+5351 2176 CircleF
+5272 2164 CircleF
+5133 2162 CircleF
+5112 2175 CircleF
+5093 2207 CircleF
+5060 2328 CircleF
+5028 2458 CircleF
+5005 2667 CircleF
+4999 2716 CircleF
+4994 2742 CircleF
+4984 2762 CircleF
+4971 2776 CircleF
+4955 2787 CircleF
+4839 2828 CircleF
+4825 2836 CircleF
+4739 2916 CircleF
+4663 2999 CircleF
+4622 3035 CircleF
+4581 3061 CircleF
+4539 3081 CircleF
+4468 3103 CircleF
+4313 3122 CircleF
+4230 3123 CircleF
+4076 3116 CircleF
+3921 3115 CircleF
+3767 3117 CircleF
+3688 3121 CircleF
+3584 3118 CircleF
+3429 3120 CircleF
+3407 3121 CircleF
+3267 3111 CircleF
+3143 3110 CircleF
+3050 3111 CircleF
+2951 3112 CircleF
+2797 3112 CircleF
+2643 3115 CircleF
+2487 3119 CircleF
+2400 3123 CircleF
+2300 3117 CircleF
+2253 3122 CircleF
+2226 3128 CircleF
+2172 3153 CircleF
+2115 3220 CircleF
+2079 3325 CircleF
+2054 3554 CircleF
+2045 3686 CircleF
+2047 3818 CircleF
+2050 3968 CircleF
+2051 4092 CircleF
+2054 4145 CircleF
+2064 4213 CircleF
+2106 4361 CircleF
+2148 4462 CircleF
+2159 4481 CircleF
+2178 4507 CircleF
+2248 4569 CircleF
+2338 4612 CircleF
+2423 4633 CircleF
+2535 4642 CircleF
+2614 4645 CircleF
+2674 4642 CircleF
+2751 4645 CircleF
+2840 4649 CircleF
+2869 4647 CircleF
+2942 4629 CircleF
+3086 4577 CircleF
+3177 4553 CircleF
+3331 4543 CircleF
+3487 4543 CircleF
+3642 4538 CircleF
+3720 4532 CircleF
+3864 4539 CircleF
+3901 4536 CircleF
+3934 4535 CircleF
+4090 4535 CircleF
+4196 4545 CircleF
+4293 4547 CircleF
+4395 4542 CircleF
+4472 4534 CircleF
+4552 4516 CircleF
+4569 4510 CircleF
+4588 4500 CircleF
+4602 4489 CircleF
+4615 4474 CircleF
+4627 4457 CircleF
+4638 4437 CircleF
+4647 4415 CircleF
+4652 4392 CircleF
+4656 4357 CircleF
+4657 4241 CircleF
+4656 4110 CircleF
+4653 3879 CircleF
+4654 3756 CircleF
+4657 3525 CircleF
+4652 3388 CircleF
+4648 3237 CircleF
+4648 3121 CircleF
+4648 3005 CircleF
+4654 2835 CircleF
+4658 2683 CircleF
 % End plot #1
 2.000 UL
 LTb

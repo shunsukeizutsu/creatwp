@@ -74,10 +74,10 @@ int main(int aArgc, char **aArgv)
                     {
                         if (localizer.data().estAngvel[2] > 0.2 || localizer.data().estAngvel[2] < -0.2)
                         {
-                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 0.3)
+                            if (sqrt(delta_x * delta_x + delta_y * delta_y) > 0.5)
                             {
                                 int i = countID();
-                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.3    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
+                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.5    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
                                 PD.SaveData2D(localizer.data().estPos[0], localizer.data().estPos[1]);
                                 pre_x = localizer.data().estPos[0];
                                 pre_y = localizer.data().estPos[1];
@@ -88,7 +88,7 @@ int main(int aArgc, char **aArgv)
                             if (sqrt(delta_x * delta_x + delta_y * delta_y) > 1.5)
                             {
                                 int i = countID();
-                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.5    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
+                                fprintf(fp, "%d    %f    %f    0    N    0    0    0.6    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);
                                 PD.SaveData2D(localizer.data().estPos[0], localizer.data().estPos[1]);
                                 pre_x = localizer.data().estPos[0];
                                 pre_y = localizer.data().estPos[1];
@@ -98,7 +98,7 @@ int main(int aArgc, char **aArgv)
 
                     else
                     {
-                        if (sqrt(delta_x * delta_x + delta_y * delta_y) > 3.0)
+                        if (sqrt(delta_x * delta_x + delta_y * delta_y) > 3.5)
                         {
                             int i = countID();
                             fprintf(fp, "%d    %f    %f    0    N    0    0    0.7    0    1\n", i, localizer.data().estPos[0], localizer.data().estPos[1]);

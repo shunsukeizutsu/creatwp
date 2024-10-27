@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: ../data/test1.esp
 %%Creator: gnuplot 5.2 patchlevel 8
-%%CreationDate: Thu Oct 24 11:29:22 2024
+%%CreationDate: Sun Oct 27 01:08:17 2024
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -481,7 +481,7 @@ SDict begin [
   /Creator (gnuplot 5.2 patchlevel 8)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Thu Oct 24 11:29:22 2024)
+  /CreationDate (Sun Oct 27 01:08:17 2024)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -529,19 +529,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 280 M
+1563 280 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 280 M
+1563 280 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 280 M
-[ [(Helvetica) 140.0 0.0 true true 0 (-40)]
+1479 280 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9225.5)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 /vshift -46 def
@@ -551,19 +551,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 1050 M
+1563 940 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 1050 M
+1563 940 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 1050 M
-[ [(Helvetica) 140.0 0.0 true true 0 (-30)]
+1479 940 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9226)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -572,19 +572,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 1820 M
+1563 1600 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 1820 M
+1563 1600 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 1820 M
-[ [(Helvetica) 140.0 0.0 true true 0 (-20)]
+1479 1600 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9226.5)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -593,19 +593,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 2590 M
+1563 2260 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 2590 M
+1563 2260 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 2590 M
-[ [(Helvetica) 140.0 0.0 true true 0 (-10)]
+1479 2260 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9227)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -614,19 +614,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 3359 M
+1563 2919 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 3359 M
+1563 2919 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 3359 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+1479 2919 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9227.5)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -635,19 +635,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 4129 M
+1563 3579 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 4129 M
+1563 3579 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 4129 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 10)]
+1479 3579 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9228)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -656,19 +656,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 4899 M
+1563 4239 M
 4619 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 4899 M
+1563 4239 M
 63 0 V
 4556 0 R
 -63 0 V
 stroke
-1311 4899 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
+1479 4239 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9228.5)]
 ] -46.7 MRshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -677,19 +677,40 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1395 280 M
+1563 4899 M
+4619 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1563 4899 M
+63 0 V
+4556 0 R
+-63 0 V
+stroke
+1479 4899 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9229)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1563 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1395 280 M
+1563 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-1395 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 (-10)]
+1563 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21940)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -698,19 +719,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1908 280 M
+2076 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1908 280 M
+2076 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-1908 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+2076 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21940.5)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -719,19 +740,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-2421 280 M
+2589 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-2421 280 M
+2589 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-2421 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 10)]
+2589 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21941)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -740,19 +761,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-2935 280 M
+3103 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-2935 280 M
+3103 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-2935 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
+3103 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21941.5)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -761,19 +782,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-3448 280 M
+3616 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-3448 280 M
+3616 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-3448 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 30)]
+3616 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21942)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -782,19 +803,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-3961 280 M
+4129 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-3961 280 M
+4129 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-3961 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 40)]
+4129 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21942.5)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -803,19 +824,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-4474 280 M
+4642 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-4474 280 M
+4642 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-4474 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 50)]
+4642 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21943)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -824,19 +845,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-4988 280 M
+5156 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-4988 280 M
+5156 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-4988 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 60)]
+5156 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21943.5)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -845,20 +866,20 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-5501 280 M
+5669 280 M
 0 4556 V
 0 63 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-5501 280 M
+5669 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-5501 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 70)]
+5669 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21944)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -867,19 +888,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-6014 280 M
+6182 280 M
 0 4619 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-6014 280 M
+6182 280 M
 0 63 V
 0 4556 R
 0 -63 V
 stroke
-6014 140 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 80)]
+6182 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 21944.5)]
 ] -46.7 MCshow
 /Helvetica findfont 140 scalefont setfont
 1.000 UL
@@ -888,7 +909,7 @@ LCb setrgbcolor
 1.000 UL
 LTB
 LCb setrgbcolor
-1395 4899 N
+1563 4899 N
 0 -4619 V
 4619 0 V
 0 4619 V
@@ -903,191 +924,14 @@ LCb setrgbcolor
 1.000 UL
 LTb
 0.00 0.00 1.00 C
-4701 2595 CircleF
-4678 2484 CircleF
-4658 2255 CircleF
-4650 2023 CircleF
-4646 1791 CircleF
-4642 1579 CircleF
-4617 1446 CircleF
-4567 1356 CircleF
-4521 1325 CircleF
-4444 1334 CircleF
-4290 1352 CircleF
-4136 1357 CircleF
-4051 1364 CircleF
-3896 1362 CircleF
-3742 1370 CircleF
-3587 1366 CircleF
-3505 1366 CircleF
-3350 1362 CircleF
-3195 1367 CircleF
-3041 1372 CircleF
-2925 1376 CircleF
-2781 1363 CircleF
-2627 1365 CircleF
-2546 1365 CircleF
-2415 1367 CircleF
-2322 1358 CircleF
-2168 1369 CircleF
-2014 1368 CircleF
-1892 1373 CircleF
-1816 1351 CircleF
-1794 1331 CircleF
-1782 1315 CircleF
-1756 1161 CircleF
-1746 1038 CircleF
-1744 806 CircleF
-1747 751 CircleF
-1752 723 CircleF
-1786 624 CircleF
-1796 602 CircleF
-1810 582 CircleF
-1823 568 CircleF
-1878 535 CircleF
-2033 525 CircleF
-2188 527 CircleF
-2343 526 CircleF
-2462 530 CircleF
-2585 535 CircleF
-2740 541 CircleF
-2894 536 CircleF
-3001 535 CircleF
-3117 535 CircleF
-3264 532 CircleF
-3419 520 CircleF
-3555 532 CircleF
-3651 533 CircleF
-3806 540 CircleF
-3960 526 CircleF
-4037 520 CircleF
-4157 529 CircleF
-4245 516 CircleF
-4337 514 CircleF
-4470 510 CircleF
-4555 515 CircleF
-4649 513 CircleF
-4803 511 CircleF
-4904 511 CircleF
-5059 503 CircleF
-5214 493 CircleF
-5285 490 CircleF
-5386 498 CircleF
-5541 503 CircleF
-5586 522 CircleF
-5597 539 CircleF
-5624 657 CircleF
-5634 848 CircleF
-5639 1080 CircleF
-5640 1312 CircleF
-5638 1544 CircleF
-5634 1727 CircleF
-5639 1843 CircleF
-5641 1917 CircleF
-5631 2036 CircleF
-5583 2129 CircleF
-5559 2165 CircleF
-5474 2190 CircleF
-5351 2176 CircleF
-5272 2164 CircleF
-5133 2162 CircleF
-5112 2175 CircleF
-5093 2207 CircleF
-5060 2328 CircleF
-5028 2458 CircleF
-5005 2667 CircleF
-4999 2716 CircleF
-4994 2742 CircleF
-4984 2762 CircleF
-4971 2776 CircleF
-4955 2787 CircleF
-4839 2828 CircleF
-4825 2836 CircleF
-4739 2916 CircleF
-4663 2999 CircleF
-4622 3035 CircleF
-4581 3061 CircleF
-4539 3081 CircleF
-4468 3103 CircleF
-4313 3122 CircleF
-4230 3123 CircleF
-4076 3116 CircleF
-3921 3115 CircleF
-3767 3117 CircleF
-3688 3121 CircleF
-3584 3118 CircleF
-3429 3120 CircleF
-3407 3121 CircleF
-3267 3111 CircleF
-3143 3110 CircleF
-3050 3111 CircleF
-2951 3112 CircleF
-2797 3112 CircleF
-2643 3115 CircleF
-2487 3119 CircleF
-2400 3123 CircleF
-2300 3117 CircleF
-2253 3122 CircleF
-2226 3128 CircleF
-2172 3153 CircleF
-2115 3220 CircleF
-2079 3325 CircleF
-2054 3554 CircleF
-2045 3686 CircleF
-2047 3818 CircleF
-2050 3968 CircleF
-2051 4092 CircleF
-2054 4145 CircleF
-2064 4213 CircleF
-2106 4361 CircleF
-2148 4462 CircleF
-2159 4481 CircleF
-2178 4507 CircleF
-2248 4569 CircleF
-2338 4612 CircleF
-2423 4633 CircleF
-2535 4642 CircleF
-2614 4645 CircleF
-2674 4642 CircleF
-2751 4645 CircleF
-2840 4649 CircleF
-2869 4647 CircleF
-2942 4629 CircleF
-3086 4577 CircleF
-3177 4553 CircleF
-3331 4543 CircleF
-3487 4543 CircleF
-3642 4538 CircleF
-3720 4532 CircleF
-3864 4539 CircleF
-3901 4536 CircleF
-3934 4535 CircleF
-4090 4535 CircleF
-4196 4545 CircleF
-4293 4547 CircleF
-4395 4542 CircleF
-4472 4534 CircleF
-4552 4516 CircleF
-4569 4510 CircleF
-4588 4500 CircleF
-4602 4489 CircleF
-4615 4474 CircleF
-4627 4457 CircleF
-4638 4437 CircleF
-4647 4415 CircleF
-4652 4392 CircleF
-4656 4357 CircleF
-4657 4241 CircleF
-4656 4110 CircleF
-4653 3879 CircleF
-4654 3756 CircleF
-4657 3525 CircleF
-4652 3388 CircleF
-4648 3237 CircleF
-4648 3121 CircleF
-4648 3005 CircleF
-4654 2835 CircleF
-4658 2683 CircleF
+5913 480 CircleF
+4139 865 CircleF
+3601 943 CircleF
+3107 1134 CircleF
+2222 2409 CircleF
+1697 3399 CircleF
+1708 4094 CircleF
+1594 4745 CircleF
 % End plot #1
 2.000 UL
 LTb
@@ -1095,7 +939,7 @@ LCb setrgbcolor
 1.000 UL
 LTB
 LCb setrgbcolor
-1395 4899 N
+1563 4899 N
 0 -4619 V
 4619 0 V
 0 4619 V

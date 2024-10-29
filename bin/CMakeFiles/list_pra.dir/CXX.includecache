@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/shun330/creatwp/src/adrewp.cpp
+adrewp.hpp
+/home/shun330/creatwp/src/adrewp.hpp
+
+/home/shun330/creatwp/src/adrewp.hpp
+iostream
+-
+string
+-
+list
+-
+stdio.h
+-
+

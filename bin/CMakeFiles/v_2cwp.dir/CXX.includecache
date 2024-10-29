@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/snowplow3/TC2024/localizer/src/localizer.hpp
+/home/shun330/TC2024/localizer/src/localizer.hpp
 
-/home/snowplow3/creatwp/src/v2_creatwp.cpp
+/home/shun330/creatFig/src/creatfig.cpp
+creatfig.hpp
+/home/shun330/creatFig/src/creatfig.hpp
+
+/home/shun330/creatFig/src/creatfig.hpp
+stdio.h
+-
+iostream
+-
+vector
+-
+signal.h
+-
+
+/home/shun330/creatwp/src/v2_creatwp.cpp
 iostream
 -
 vector
@@ -50,7 +64,7 @@ ssm.hpp
 joystick.hpp
 -
 localizer.hpp
-/home/snowplow3/creatwp/src/localizer.hpp
+/home/shun330/creatwp/src/localizer.hpp
 
 /usr/local/include/rppjs-data.h
 linux/input.h

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/snowplow3/creatwp
+CMAKE_SOURCE_DIR = /home/shun330/creatwp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/snowplow3/creatwp/bin
+CMAKE_BINARY_DIR = /home/shun330/creatwp/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/snowplow3/creatwp/bin/CMakeFiles /home/snowplow3/creatwp/bin/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shun330/creatwp/bin/CMakeFiles /home/shun330/creatwp/bin/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/snowplow3/creatwp/bin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shun330/creatwp/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named v3cwp
+
+# Build rule for target.
+v3cwp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 v3cwp
+.PHONY : v3cwp
+
+# fast build rule for target.
+v3cwp/fast:
+	$(MAKE) -f CMakeFiles/v3cwp.dir/build.make CMakeFiles/v3cwp.dir/build
+.PHONY : v3cwp/fast
 
 #=============================================================================
 # Target rules for targets named list_pra
@@ -162,38 +175,41 @@ cwp/fast:
 	$(MAKE) -f CMakeFiles/cwp.dir/build.make CMakeFiles/cwp.dir/build
 .PHONY : cwp/fast
 
-home/snowplow3/creatFig/src/creatfig.o: home/snowplow3/creatFig/src/creatfig.cpp.o
+home/shun330/creatFig/src/creatfig.o: home/shun330/creatFig/src/creatfig.cpp.o
 
-.PHONY : home/snowplow3/creatFig/src/creatfig.o
+.PHONY : home/shun330/creatFig/src/creatfig.o
 
 # target to build an object file
-home/snowplow3/creatFig/src/creatfig.cpp.o:
-	$(MAKE) -f CMakeFiles/v_2cwp.dir/build.make CMakeFiles/v_2cwp.dir/home/snowplow3/creatFig/src/creatfig.cpp.o
-	$(MAKE) -f CMakeFiles/log2wp.dir/build.make CMakeFiles/log2wp.dir/home/snowplow3/creatFig/src/creatfig.cpp.o
-	$(MAKE) -f CMakeFiles/cwp.dir/build.make CMakeFiles/cwp.dir/home/snowplow3/creatFig/src/creatfig.cpp.o
-.PHONY : home/snowplow3/creatFig/src/creatfig.cpp.o
+home/shun330/creatFig/src/creatfig.cpp.o:
+	$(MAKE) -f CMakeFiles/v3cwp.dir/build.make CMakeFiles/v3cwp.dir/home/shun330/creatFig/src/creatfig.cpp.o
+	$(MAKE) -f CMakeFiles/v_2cwp.dir/build.make CMakeFiles/v_2cwp.dir/home/shun330/creatFig/src/creatfig.cpp.o
+	$(MAKE) -f CMakeFiles/log2wp.dir/build.make CMakeFiles/log2wp.dir/home/shun330/creatFig/src/creatfig.cpp.o
+	$(MAKE) -f CMakeFiles/cwp.dir/build.make CMakeFiles/cwp.dir/home/shun330/creatFig/src/creatfig.cpp.o
+.PHONY : home/shun330/creatFig/src/creatfig.cpp.o
 
-home/snowplow3/creatFig/src/creatfig.i: home/snowplow3/creatFig/src/creatfig.cpp.i
+home/shun330/creatFig/src/creatfig.i: home/shun330/creatFig/src/creatfig.cpp.i
 
-.PHONY : home/snowplow3/creatFig/src/creatfig.i
+.PHONY : home/shun330/creatFig/src/creatfig.i
 
 # target to preprocess a source file
-home/snowplow3/creatFig/src/creatfig.cpp.i:
-	$(MAKE) -f CMakeFiles/v_2cwp.dir/build.make CMakeFiles/v_2cwp.dir/home/snowplow3/creatFig/src/creatfig.cpp.i
-	$(MAKE) -f CMakeFiles/log2wp.dir/build.make CMakeFiles/log2wp.dir/home/snowplow3/creatFig/src/creatfig.cpp.i
-	$(MAKE) -f CMakeFiles/cwp.dir/build.make CMakeFiles/cwp.dir/home/snowplow3/creatFig/src/creatfig.cpp.i
-.PHONY : home/snowplow3/creatFig/src/creatfig.cpp.i
+home/shun330/creatFig/src/creatfig.cpp.i:
+	$(MAKE) -f CMakeFiles/v3cwp.dir/build.make CMakeFiles/v3cwp.dir/home/shun330/creatFig/src/creatfig.cpp.i
+	$(MAKE) -f CMakeFiles/v_2cwp.dir/build.make CMakeFiles/v_2cwp.dir/home/shun330/creatFig/src/creatfig.cpp.i
+	$(MAKE) -f CMakeFiles/log2wp.dir/build.make CMakeFiles/log2wp.dir/home/shun330/creatFig/src/creatfig.cpp.i
+	$(MAKE) -f CMakeFiles/cwp.dir/build.make CMakeFiles/cwp.dir/home/shun330/creatFig/src/creatfig.cpp.i
+.PHONY : home/shun330/creatFig/src/creatfig.cpp.i
 
-home/snowplow3/creatFig/src/creatfig.s: home/snowplow3/creatFig/src/creatfig.cpp.s
+home/shun330/creatFig/src/creatfig.s: home/shun330/creatFig/src/creatfig.cpp.s
 
-.PHONY : home/snowplow3/creatFig/src/creatfig.s
+.PHONY : home/shun330/creatFig/src/creatfig.s
 
 # target to generate assembly for a file
-home/snowplow3/creatFig/src/creatfig.cpp.s:
-	$(MAKE) -f CMakeFiles/v_2cwp.dir/build.make CMakeFiles/v_2cwp.dir/home/snowplow3/creatFig/src/creatfig.cpp.s
-	$(MAKE) -f CMakeFiles/log2wp.dir/build.make CMakeFiles/log2wp.dir/home/snowplow3/creatFig/src/creatfig.cpp.s
-	$(MAKE) -f CMakeFiles/cwp.dir/build.make CMakeFiles/cwp.dir/home/snowplow3/creatFig/src/creatfig.cpp.s
-.PHONY : home/snowplow3/creatFig/src/creatfig.cpp.s
+home/shun330/creatFig/src/creatfig.cpp.s:
+	$(MAKE) -f CMakeFiles/v3cwp.dir/build.make CMakeFiles/v3cwp.dir/home/shun330/creatFig/src/creatfig.cpp.s
+	$(MAKE) -f CMakeFiles/v_2cwp.dir/build.make CMakeFiles/v_2cwp.dir/home/shun330/creatFig/src/creatfig.cpp.s
+	$(MAKE) -f CMakeFiles/log2wp.dir/build.make CMakeFiles/log2wp.dir/home/shun330/creatFig/src/creatfig.cpp.s
+	$(MAKE) -f CMakeFiles/cwp.dir/build.make CMakeFiles/cwp.dir/home/shun330/creatFig/src/creatfig.cpp.s
+.PHONY : home/shun330/creatFig/src/creatfig.cpp.s
 
 src/adrewp.o: src/adrewp.cpp.o
 
@@ -303,6 +319,33 @@ src/v2_creatwp.cpp.s:
 	$(MAKE) -f CMakeFiles/v_2cwp.dir/build.make CMakeFiles/v_2cwp.dir/src/v2_creatwp.cpp.s
 .PHONY : src/v2_creatwp.cpp.s
 
+src/v3_creatwp.o: src/v3_creatwp.cpp.o
+
+.PHONY : src/v3_creatwp.o
+
+# target to build an object file
+src/v3_creatwp.cpp.o:
+	$(MAKE) -f CMakeFiles/v3cwp.dir/build.make CMakeFiles/v3cwp.dir/src/v3_creatwp.cpp.o
+.PHONY : src/v3_creatwp.cpp.o
+
+src/v3_creatwp.i: src/v3_creatwp.cpp.i
+
+.PHONY : src/v3_creatwp.i
+
+# target to preprocess a source file
+src/v3_creatwp.cpp.i:
+	$(MAKE) -f CMakeFiles/v3cwp.dir/build.make CMakeFiles/v3cwp.dir/src/v3_creatwp.cpp.i
+.PHONY : src/v3_creatwp.cpp.i
+
+src/v3_creatwp.s: src/v3_creatwp.cpp.s
+
+.PHONY : src/v3_creatwp.s
+
+# target to generate assembly for a file
+src/v3_creatwp.cpp.s:
+	$(MAKE) -f CMakeFiles/v3cwp.dir/build.make CMakeFiles/v3cwp.dir/src/v3_creatwp.cpp.s
+.PHONY : src/v3_creatwp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -311,13 +354,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... v3cwp"
 	@echo "... list_pra"
 	@echo "... v_2cwp"
 	@echo "... log2wp"
 	@echo "... cwp"
-	@echo "... home/snowplow3/creatFig/src/creatfig.o"
-	@echo "... home/snowplow3/creatFig/src/creatfig.i"
-	@echo "... home/snowplow3/creatFig/src/creatfig.s"
+	@echo "... home/shun330/creatFig/src/creatfig.o"
+	@echo "... home/shun330/creatFig/src/creatfig.i"
+	@echo "... home/shun330/creatFig/src/creatfig.s"
 	@echo "... src/adrewp.o"
 	@echo "... src/adrewp.i"
 	@echo "... src/adrewp.s"
@@ -330,6 +374,9 @@ help:
 	@echo "... src/v2_creatwp.o"
 	@echo "... src/v2_creatwp.i"
 	@echo "... src/v2_creatwp.s"
+	@echo "... src/v3_creatwp.o"
+	@echo "... src/v3_creatwp.i"
+	@echo "... src/v3_creatwp.s"
 .PHONY : help
 
 

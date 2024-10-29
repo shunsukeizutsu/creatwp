@@ -41,3 +41,6 @@ add_executable(list_pra ./src/adrewp.cpp)
 add_executable(v_2cwp ./src/v2_creatwp.cpp ~/creatFig/src/creatfig.cpp)
 target_link_libraries(v_2cwp m ssm rppjs ypspur)
 
+
+add_executable(v3cwp ./src/v3_creatwp.cpp ~/creatFig/src/creatfig.cpp)
+target_link_libraries(v3cwp m ssm)

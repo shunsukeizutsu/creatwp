@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -pthread -O3 -DNDEBUG   CMakeFiles/v_2cwp.dir/src/v2_creatwp.cpp.o CMakeFiles/v_2cwp.dir/home/snowplow3/creatFig/src/creatfig.cpp.o  -o v_2cwp  -lm -lssm -lrppjs -lypspur 

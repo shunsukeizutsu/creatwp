@@ -19,7 +19,7 @@ endif()
 
 
 
-include_directories( ~/TC2024/localizer/src ~/creatFig/src )
+include_directories(/usr/local/include/ssmtype ~/TC2024/localizer/src ~/creatFig/src )
 
 # set the build type
 set(CMAKE_BUILD_TYPE Release)
@@ -38,5 +38,6 @@ target_link_libraries(log2wp m ssm)
 
 add_executable(list_pra ./src/adrewp.cpp)
 
-
+add_executable(v_2cwp ./src/v2_creatwp.cpp ~/creatFig/src/creatfig.cpp)
+target_link_libraries(v_2cwp m ssm rppjs ypspur)
 

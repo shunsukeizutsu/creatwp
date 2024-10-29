@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/haselab17/creatFig/src/creatfig.cpp" "/home/haselab17/creatwp/bin/CMakeFiles/log2wp.dir/home/haselab17/creatFig/src/creatfig.cpp.o"
-  "/home/haselab17/creatwp/src/log2wp.cpp" "/home/haselab17/creatwp/bin/CMakeFiles/log2wp.dir/src/log2wp.cpp.o"
+  "/home/snowplow3/creatFig/src/creatfig.cpp" "/home/snowplow3/creatwp/bin/CMakeFiles/log2wp.dir/home/snowplow3/creatFig/src/creatfig.cpp.o"
+  "/home/snowplow3/creatwp/src/log2wp.cpp" "/home/snowplow3/creatwp/bin/CMakeFiles/log2wp.dir/src/log2wp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/haselab17/TC2024/localizer/src"
-  "/home/haselab17/creatFig/src"
+  "/usr/local/include/ssmtype"
+  "/home/snowplow3/TC2024/localizer/src"
+  "/home/snowplow3/creatFig/src"
   )
 
 # Targets to which this target links.

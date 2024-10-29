@@ -165,6 +165,7 @@ static void setSigInt()
 }
 static void Terminate(void)
 {
+	LOCALIZER->release();
     endSSM();
     printf("end\n");
 }

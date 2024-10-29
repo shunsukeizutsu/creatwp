@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -pthread -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/haselab17/TC2024/localizer/src -I/home/haselab17/creatFig/src 
+CXX_INCLUDES = -I/usr/local/include/ssmtype -I/home/snowplow3/TC2024/localizer/src -I/home/snowplow3/creatFig/src 
 

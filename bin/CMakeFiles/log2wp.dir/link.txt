@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++14 -pthread -O3 -DNDEBUG   CMakeFiles/log2wp.dir/src/log2wp.cpp.o CMakeFiles/log2wp.dir/home/haselab17/creatFig/src/creatfig.cpp.o  -o log2wp  -lm -lssm 
+/usr/bin/c++   -std=c++14 -pthread -O3 -DNDEBUG   CMakeFiles/log2wp.dir/src/log2wp.cpp.o CMakeFiles/log2wp.dir/home/snowplow3/creatFig/src/creatfig.cpp.o  -o log2wp  -lm -lssm 

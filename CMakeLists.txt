@@ -44,3 +44,6 @@ target_link_libraries(v_2cwp m ssm rppjs ypspur)
 
 add_executable(v3cwp ./src/v3_creatwp.cpp ~/creatFig/src/creatfig.cpp)
 target_link_libraries(v3cwp m ssm)
+
+add_executable(com_wp ./src/comp_wp.cpp ~/creatFig/src/creatfig.cpp)
+target_link_libraries(com_wp m ssm)

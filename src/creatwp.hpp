@@ -37,6 +37,7 @@ typedef struct WayPoint
 
 }wp;
 
+
 static int gShutOff = 0;
 static void setSigInt(void);
 static void printShortHelp(const char *programName);

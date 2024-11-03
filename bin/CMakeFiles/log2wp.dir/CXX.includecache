@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/shun330/TC2024/localizer/src/localizer.hpp
-
-/home/shun330/creatFig/src/creatfig.cpp
+/home/haselab17/creatFig/src/creatfig.cpp
 creatfig.hpp
-/home/shun330/creatFig/src/creatfig.hpp
+/home/haselab17/creatFig/src/creatfig.hpp
 
-/home/shun330/creatFig/src/creatfig.hpp
+/home/haselab17/creatFig/src/creatfig.hpp
 stdio.h
 -
 iostream
@@ -21,28 +19,4 @@ vector
 -
 signal.h
 -
-
-/home/shun330/creatwp/src/log2wp.cpp
-stdio.h
--
-stdlib.h
--
-string.h
--
-signal.h
--
-stdexcept
--
-getopt.h
--
-ssm.hpp
--
-ssm-log.hpp
-/home/shun330/creatwp/src/ssm-log.hpp
-localizer.hpp
-/home/shun330/creatwp/src/localizer.hpp
-math.h
--
-creatfig.hpp
-/home/shun330/creatwp/src/creatfig.hpp
 

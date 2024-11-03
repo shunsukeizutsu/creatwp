@@ -1,4 +1,4 @@
-# Install script for directory: /home/shun330/creatwp
+# Install script for directory: /home/haselab17/creatwp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shun330/creatwp/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/haselab17/creatwp/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

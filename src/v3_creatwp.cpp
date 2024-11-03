@@ -99,17 +99,28 @@ int main(int aArgc, char **aArgv)
                         printf("Change Avoid Type %d", avoid_type);
                         avoid_type = !avoid_type;
                     }
-                    if ((joystick.data.button & ssm::JS_BUTTON_3) == ssm::JS_BUTTON_3)
+                    if ((joystick.data.button & ssm::JS_BUTTON_4) == ssm::JS_BUTTON_4)
                     { // Stop flag = 1
                         printf("stop flag\n");
                         wp_number = CreatWP(wpdata, fp, wp_number, avoid_type, 1, 0.5, area_type, localizer.data.estPos[0], localizer.data.estPos[1]);
                         pre_x = localizer.data.estPos[0];
                         pre_y = localizer.data.estPos[1];
-                    }
-                    else if ((joystick.data.button & ssm::JS_BUTTON_4) == ssm::JS_BUTTON_4)
+                    }else if ((joystick.data.button & ssm::JS_BUTTON_5) == ssm::JS_BUTTON_5)
                     { // Stop flag = 2
                         printf("stop flag\n");
                         wp_number = CreatWP(wpdata, fp, wp_number, avoid_type, 2, 0.5, area_type, localizer.data.estPos[0], localizer.data.estPos[1]);
+                        pre_x = localizer.data.estPos[0];
+                        pre_y = localizer.data.estPos[1];
+                    }else if ((joystick.data.button & ssm::JS_BUTTON_6) == ssm::JS_BUTTON_6)
+                    { // Stop flag = 3
+                        printf("stop flag\n");
+                        wp_number = CreatWP(wpdata, fp, wp_number, avoid_type, 3, 0.5, area_type, localizer.data.estPos[0], localizer.data.estPos[1]);
+                        pre_x = localizer.data.estPos[0];
+                        pre_y = localizer.data.estPos[1];
+                    }else if ((joystick.data.button & ssm::JS_BUTTON_7) == ssm::JS_BUTTON_7)
+                    { // Stop flag = 4
+                        printf("stop flag\n");
+                        wp_number = CreatWP(wpdata, fp, wp_number, avoid_type, 4, 0.5, area_type, localizer.data.estPos[0], localizer.data.estPos[1]);
                         pre_x = localizer.data.estPos[0];
                         pre_y = localizer.data.estPos[1];
                     }
@@ -306,5 +317,6 @@ int CreatWP(vector<wp> wpdata, FILE *fp, int number, bool avoid, bool stop, doub
     tmp.Search_Status = 1;
     wpdata.push_back(tmp);
     fprintf(fp, "%d\t%f\t%f\t0\tN\t%d\t%d\t%f\t%d\t1\n", number, x, y, stop, avoid, velocity, area);
+    
     return number++;
 }

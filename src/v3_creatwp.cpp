@@ -130,11 +130,11 @@ int main(int aArgc, char **aArgv)
 
                     double distance = delta_x * delta_x + delta_y * delta_y;
 
-                    if (fabs(localizer.data.estAngvel[2]) > 0.1)
+                    if (fabs(localizer.data.estAngvel[2]) > 0.05)
                     {
-                        if (fabs(localizer.data.estAngvel[2]) > 0.2)
+                        if (fabs(localizer.data.estAngvel[2]) > 0.10)
                         {
-                            if (sqrt(distance) > 0.5)
+                            if (sqrt(distance) > 0.3)
                             {
                                 wp_number = CreatWP(wpdata, fp, wp_number, avoid_type, 2, 0.5, area_type, localizer.data.estPos[0], localizer.data.estPos[1]);
 
@@ -144,7 +144,7 @@ int main(int aArgc, char **aArgv)
                         }
                         else
                         {
-                            if (sqrt(distance) > 1.5)
+                            if (sqrt(distance) > 0.7)
                             {
 
                                 wp_number = CreatWP(wpdata, fp, wp_number, avoid_type, 2, 0.5, area_type, localizer.data.estPos[0], localizer.data.estPos[1]);
@@ -156,7 +156,7 @@ int main(int aArgc, char **aArgv)
                     }
                     else
                     {
-                        if (sqrt(distance) > 3.5)
+                        if (sqrt(distance) > 3.0)
                         {
                             wp_number = CreatWP(wpdata, fp, wp_number, avoid_type, 2, 0.5, area_type, localizer.data.estPos[0], localizer.data.estPos[1]);
 

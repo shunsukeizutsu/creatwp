@@ -47,3 +47,6 @@ target_link_libraries(v3cwp m ssm)
 
 add_executable(com_wp ./src/comp_wp.cpp ~/creatFig/src/creatfig.cpp)
 target_link_libraries(com_wp m ssm)
+
+add_executable(re_wp ./src/re_wp.cpp)
+target_link_libraries(re_wp m ssm)

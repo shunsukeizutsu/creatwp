@@ -33,8 +33,8 @@ static bool setOption(int aArgc, char *aArgv[]);
 static void ctrlC(int aStatus);
 static void Terminate(void);
 
-static char filename[128] = "/home/shun2024/TC2024-master/param/20241117/01_wp_toyosu.dat";
-static char filename2[128] = "/home/shun2024/TC2024-master/param/20241117/02_a_wp_toyosu.dat";
+static char filename[128] = "/home/haselab17/TC2024-master/param/2024/Tsukuba_delivery_wp/01_tsukuba.dat";
+static char filename2[128] = "/home/haselab17/TC2024-master/param/2024/1121_enterprise_v3.dat";
 static char filename3[128] = "/home/shun2024/TC2024-master/param/20241117/02_b_wp_toyosu.dat";
 static char filename4[128] = "/home/shun2024/TC2024-master/param/20241117/02_c_wp_toyosu.dat";
 static char filename5[128] = "/home/shun2024/TC2024-master/param/20241117/02_n_toyosu.dat";

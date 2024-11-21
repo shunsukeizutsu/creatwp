@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/haselab17/creatwp/bin
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named re_wp
+
+# Build rule for target.
+re_wp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 re_wp
+.PHONY : re_wp
+
+# fast build rule for target.
+re_wp/fast:
+	$(MAKE) -f CMakeFiles/re_wp.dir/build.make CMakeFiles/re_wp.dir/build
+.PHONY : re_wp/fast
 
 #=============================================================================
 # Target rules for targets named com_wp
@@ -335,6 +348,33 @@ src/log2wp.cpp.s:
 	$(MAKE) -f CMakeFiles/log2wp.dir/build.make CMakeFiles/log2wp.dir/src/log2wp.cpp.s
 .PHONY : src/log2wp.cpp.s
 
+src/re_wp.o: src/re_wp.cpp.o
+
+.PHONY : src/re_wp.o
+
+# target to build an object file
+src/re_wp.cpp.o:
+	$(MAKE) -f CMakeFiles/re_wp.dir/build.make CMakeFiles/re_wp.dir/src/re_wp.cpp.o
+.PHONY : src/re_wp.cpp.o
+
+src/re_wp.i: src/re_wp.cpp.i
+
+.PHONY : src/re_wp.i
+
+# target to preprocess a source file
+src/re_wp.cpp.i:
+	$(MAKE) -f CMakeFiles/re_wp.dir/build.make CMakeFiles/re_wp.dir/src/re_wp.cpp.i
+.PHONY : src/re_wp.cpp.i
+
+src/re_wp.s: src/re_wp.cpp.s
+
+.PHONY : src/re_wp.s
+
+# target to generate assembly for a file
+src/re_wp.cpp.s:
+	$(MAKE) -f CMakeFiles/re_wp.dir/build.make CMakeFiles/re_wp.dir/src/re_wp.cpp.s
+.PHONY : src/re_wp.cpp.s
+
 src/v2_creatwp.o: src/v2_creatwp.cpp.o
 
 .PHONY : src/v2_creatwp.o
@@ -395,8 +435,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... re_wp"
 	@echo "... com_wp"
 	@echo "... v3cwp"
 	@echo "... list_pra"
@@ -418,6 +459,9 @@ help:
 	@echo "... src/log2wp.o"
 	@echo "... src/log2wp.i"
 	@echo "... src/log2wp.s"
+	@echo "... src/re_wp.o"
+	@echo "... src/re_wp.i"
+	@echo "... src/re_wp.s"
 	@echo "... src/v2_creatwp.o"
 	@echo "... src/v2_creatwp.i"
 	@echo "... src/v2_creatwp.s"

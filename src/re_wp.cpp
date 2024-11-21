@@ -18,8 +18,8 @@ typedef struct waypoint
     int stop_type;
     bool obst_avoid_flag;
     double Velocity;
-    bool Area_type;
-    bool Search_Status;
+    int Area_type;
+    int Search_Status;
 } wp;
 
 static int gShutOff = 0;
